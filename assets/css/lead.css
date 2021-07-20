@@ -1,0 +1,112 @@
+@keyframes pulse {
+	0% {
+		transform: scale(2);
+		box-shadow: 0 0 0 0 #e8b5ffc4;
+	}
+
+	70% {
+		transform: scale(2);
+		box-shadow: 0 0 0 10px #733c7b3d;
+	}
+
+	100% {
+		transform: scale(2);
+		box-shadow: 0 0 0 0 #b5ffcec4;
+	}
+}
+
+.p-obrigado {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 3px 5px #03d209;
+}
+
+.obrigado {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 4px 5px 13px #06e417;
+}
+
+.margin-center {
+    margin-top: 273px;
+}
+
+.aula1 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #00f329;
+}
+.aula1 h1 {
+    color: #fff;
+}
+
+.pd-row {
+    padding-top: 127px;
+}
+.pd-row p, h1 {
+    text-align: center;
+}
+
+.cabecalho {
+    height: 190px;
+}
+
+.inicio {
+    margin-top:99px;
+}
+
+.inicio .embed-responsive {
+    width: 60%;
+}
+
+body {
+    background-image: linear-gradient(to left, #191818, #3a013a);
+    background-size: cover;
+}
+
+.btn-lead {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right,#1dff02, rgb(208 6 230) );
+    color: #fff !important;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    width: 30%;
+}
+
+.text-lead {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3;
+    color: #fff;
+    text-shadow: 10px 4px 7px purple;
+}
+
+@media (max-width: 767px) {
+    .aula1 h1 {
+        font-size: 30px;
+    }
+
+    .inicio .embed-responsive {
+        width: 80%;
+    }
+    .text-lead {
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 29px;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 3;
+        color: #fff;
+        text-shadow: 10px 4px 7px purple;
+    }
+    
+    .btn-lead {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,132 @@
+@keyframes pulse-orange {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 121, 63, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 121, 63, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+    }
+  }
+@keyframes pulse-p {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(228, 228, 228, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(252, 252, 252, 0.918);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+.main-text {
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-p {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight:bold ;
+    color: purple;
+}
+
+.video {
+    box-shadow: -1px 15px 16px 7px #3a303069;
+    border-radius: 10px;
+}
+
+.video-principal {
+    padding-top: 40px;
+}
+
+.button1 {
+    background: linear-gradient(
+        45deg
+        , #fbae00, #f3882d);
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: ease-in 200ms;
+            animation: pulse-orange 2s infinite;
+
+}
+
+.button1:hover {
+    background: linear-gradient(
+        45deg
+        , #fbae00, #cf680d);
+        transform: scale(1.1);
+        text-decoration: none;
+        color: #fff;
+}
+
+.button2 {
+    background: linear-gradient( 
+        45deg
+         , #ff0000, #f5d700);
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: ease-in 200ms;
+            animation: pulse-g 2s infinite;
+}
+
+.garantia {
+    background: linear-gradient(
+        45deg
+        , #fbae00, #cf680d);
+}
+
+.texo-garantia {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.satisfacao{
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.p-garantia {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.card-dep img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-dep {
+    border-radius: 10px;
+    box-shadow: 4px 0px 16px -4px #fd2a00;
+}
+
+@media (max-width: 767px) {
+    .selos1 {
+        width: 100%;
+    }
+}
+
